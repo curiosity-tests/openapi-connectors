@@ -1,8 +1,6 @@
 name: Test OpenAPI tool
 
 on:
-  schedule:
-    - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
       bal_docker_version:
